@@ -60,3 +60,8 @@ python mainapp.py
 Navigate http://127.0.0.1:8050/ 
 ```
 ![Image 1](https://github.com/beteko/Social-Mining-Recommendation-System/blob/master/gm.gif)
+
+
+### Challenges
+
+Due to the limited server hardware resources, the graph network may take time to load or possible crash. This is because heroku provides limited free space and uptime.
