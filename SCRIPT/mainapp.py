@@ -292,7 +292,7 @@ def tsne(score, c_size):
     '''
     import pandas as pd
     for cs in c_size:
-        ts = TSNE(random_state = cs, perplexity = 50).fit_transform(score)
+        ts = TSNE(n_components = cs, perplexity = 50).fit_transform(score)
         if not os.path.exists(os.path.join(path, 'tsne')):
             os.makedirs(os.path.join(path, 'tsne'))
             print(f'*******Saving TSNE_{cs}*******')
